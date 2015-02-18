@@ -1,0 +1,1417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SampleXml" xml:space="preserve">
+    <value>&lt;item&gt;
+&lt;title&gt;
+$259.99 - ASUS Transformer Book T100TAF-B1-BF Intel Atom Z3735F (1.33GHz) 2GB Memory 32GB SSD 10.1" Touchscreen 2-in-1 Tablet Windows 8.1 32-Bit
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16834232207&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Ultrabooks-_-ASUS-_-N82E16834232207
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/ProductImageCompressAll125/34-232-207-01.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Free Windows 10 upgrade when available&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; T100TAF-B1-BF&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16834232207&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$259.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;21%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16834232207&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Ultrabooks-_-ASUS-_-N82E16834232207"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16834232207&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Ultrabooks-_-ASUS-_-N82E16834232207
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16834232207&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;</value>
+  </data>
+  <data name="FullXml" xml:space="preserve">
+    <value>&lt;rss version="2.0"&gt;
+&lt;channel&gt;
+&lt;title&gt;Newegg.com RSS Feed - Daily Deals&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/ProductList.aspx?Submit=DailyDeals&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS
+&lt;/link&gt;
+&lt;description&gt;
+Official Newegg.com RSS Feed - An up-to-date headlines on our latest sales, deals, and promotions. Subscribe now and never miss a single Newegg.com deal.
+&lt;/description&gt;
+&lt;language&gt;en-us&lt;/language&gt;
+&lt;lastBuildDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/lastBuildDate&gt;
+&lt;ttl&gt;15&lt;/ttl&gt;
+&lt;image&gt;
+&lt;title&gt;Newegg.com&lt;/title&gt;
+&lt;link&gt;http://www.newegg.com/?nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS&lt;/link&gt;
+&lt;url&gt;
+http://images10.newegg.com/WebResource/Themes/2005/Nest/logo.gif
+&lt;/url&gt;
+&lt;/image&gt;
+&lt;item&gt;
+&lt;title&gt;$4.99 - Audials Radiotracker 12 - Download&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16832089003&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Audio%20%26%20Video%20Editing-_-Audials%20AG-_-N82E16832089003
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/ProductImageCompressAll125/32-089-003-09.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; AUDRT12&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16832089003&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$4.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;87%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16832089003&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Audio%20%26%20Video%20Editing-_-Audials%20AG-_-N82E16832089003"&gt;Download&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16832089003&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Audio%20%26%20Video%20Editing-_-Audials%20AG-_-N82E16832089003
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16832089003&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$13.99 - Patriot LX Series 32GB Class 10 Secure Digital High-Capacity (SDHC) Flash Card Model PSF32GSDHC10
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16820220452&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Flash%20Memory-_-Patriot%20Memory-_-N82E16820220452
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/20-220-452-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; PSF32GSDHC10&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16820220452&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$13.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;30%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16820220452&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Flash%20Memory-_-Patriot%20Memory-_-N82E16820220452"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16820220452&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Flash%20Memory-_-Patriot%20Memory-_-N82E16820220452
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16820220452&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;$14.99 - Phanteks PH-F140SP_BK 140mm Case Fan&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16835709023&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Case%20Fans-_-Phanteks%20Company-_-N82E16835709023
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/35-709-023-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; PH-F140SP_BK&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16835709023&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$14.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16835709023&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Case%20Fans-_-Phanteks%20Company-_-N82E16835709023"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16835709023&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Case%20Fans-_-Phanteks%20Company-_-N82E16835709023
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16835709023&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$15.99 - Etekcity HY-5082R Coax Compression Connector Adjustable Crimping Tool for Rg58 Rg59 Rg6 F BNC RCA
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=9SIA1SK0SM1275&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Hand%20Wrenches%20%26%20Pliers-_-Etekcity%20Corporation-_-9SIA1SK0SM1275
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/NeweggImage/ProductImageCompressAll125/A1SK_1_20140706560459654.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Limited time offer, ends 2/17&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; Etekcity-HY-5082R&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; 9SIA1SK0SM1275&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$15.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;72%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=9SIA1SK0SM1275&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Hand%20Wrenches%20%26%20Pliers-_-Etekcity%20Corporation-_-9SIA1SK0SM1275"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=9SIA1SK0SM1275&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Hand%20Wrenches%20%26%20Pliers-_-Etekcity%20Corporation-_-9SIA1SK0SM1275
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=9SIA1SK0SM1275&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$17.99 - Aukey SuperSpeed 3-Port USB 3.0 HUB with 10/100/1000 Gigabit Ethernet Adapter, CB-H15
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=9SIA5NV2GP3716&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Hubs-_-Aukey-_-9SIA5NV2GP3716
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/NeweggImage/ProductImageCompressAll125/A5NV_130662140903437500Qngj6dLWVE.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Limited time offer, ends 2/17&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; CB-H15&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; 9SIA5NV2GP3716&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$17.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;64%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=9SIA5NV2GP3716&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Hubs-_-Aukey-_-9SIA5NV2GP3716"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=9SIA5NV2GP3716&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Hubs-_-Aukey-_-9SIA5NV2GP3716
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=9SIA5NV2GP3716&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$18.99 - Rosewill RNX-N150RTv2.0, Wireless N150 Wi-Fi Router, IEEE 802.11b/11g/11n, Up to 150Mbps Wireless Data Rates, 1x 5dBi Fixed Antennas, WDS Wireless Bridge Connection, QoS and VPN supported.
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16833166064&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Wireless%20Routers-_-Rosewill-_-N82E16833166064
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/33-166-064-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; RNX-N150RT&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16833166064&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$18.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;46%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16833166064&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Wireless%20Routers-_-Rosewill-_-N82E16833166064"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16833166064&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Wireless%20Routers-_-Rosewill-_-N82E16833166064
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16833166064&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$18.99 - Auto Spout RS-2001W Infrared Sensor Faucet Adaptor
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=9SIA0SS0821797&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Bath%20Faucets-_-Lung%20Tian%20Industrial%20Co.%2c%20Ltd-_-9SIA0SS0821797
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/NeweggImage/ProductImageCompressAll125/A0SS_129744394983262748nqiFfKX0ty.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Limited time offer, ends 2/17&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; A0SS15413131&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; 9SIA0SS0821797&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$18.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;58%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=9SIA0SS0821797&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Bath%20Faucets-_-Lung%20Tian%20Industrial%20Co.%2c%20Ltd-_-9SIA0SS0821797"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=9SIA0SS0821797&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Bath%20Faucets-_-Lung%20Tian%20Industrial%20Co.%2c%20Ltd-_-9SIA0SS0821797
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=9SIA0SS0821797&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$18.99 - C2G 8in DisplayPort Male to VGA Female Active Adapter Converter - Black
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16812793541&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Audio%20Video%20Converters-_-Cables%20To%20Go-_-N82E16812793541
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/ProductImageCompressAll125/12-793-541-02.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; 54323&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16812793541&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$18.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;34%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16812793541&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Audio%20Video%20Converters-_-Cables%20To%20Go-_-N82E16812793541"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16812793541&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Audio%20Video%20Converters-_-Cables%20To%20Go-_-N82E16812793541
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16812793541&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$18.99 - Rosewill RX35-AT-SU SLV 3.5" Silver SATA USB 2.0 External Enclosure
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16817182156&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Hard%20Drive%20Enclosures-_-Rosewill-_-N82E16817182156
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/17-182-156-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; RX35-AT-SU SLV&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16817182156&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$18.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;5%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16817182156&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Hard%20Drive%20Enclosures-_-Rosewill-_-N82E16817182156"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16817182156&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Hard%20Drive%20Enclosures-_-Rosewill-_-N82E16817182156
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16817182156&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$19.99 - AntiVirus 2015 3 Device 1 Year PC - Download
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16832296089&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Security%20Software%20-%20Download-_-Webroot%20Software%2c%20Inc.-_-N82E16832296089
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/ProductImageCompressAll125/32-296-089-01.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;+ USD $13.5 off w/ promo code EMCANKN54, ends 2/18&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; 25113&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16832296089&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$19.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;50%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16832296089&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Security%20Software%20-%20Download-_-Webroot%20Software%2c%20Inc.-_-N82E16832296089"&gt;Download&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16832296089&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Security%20Software%20-%20Download-_-Webroot%20Software%2c%20Inc.-_-N82E16832296089
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16832296089&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$19.99 - Rosewill RHTB-13012 13"- 27" LCD LED TV Tilt/Swivel Wall Mount, Max Load 33 lbs, Max VESA 100X100mm, Black
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16886228002&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-TV%20Mounts-_-Rosewill-_-N82E16886228002
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/86-228-002-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; RHTB-13012&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16886228002&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$19.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;33%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16886228002&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-TV%20Mounts-_-Rosewill-_-N82E16886228002"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16886228002&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-TV%20Mounts-_-Rosewill-_-N82E16886228002
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16886228002&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$19.99 - Rosewill RTCG-TN450V2 High Yield Black Toner Replaces Brother TN-450 TN450 TN-420 TN420
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16828228483&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Toner%20Cartridges%20%28Aftermarket%29-_-Rosewill-_-N82E16828228483
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/28-228-483-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;+ 25% off w/ promo code AFNJ4913, ends 2/18&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; RTCG-TN450V2&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16828228483&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$19.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;60%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16828228483&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Toner%20Cartridges%20%28Aftermarket%29-_-Rosewill-_-N82E16828228483"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16828228483&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Toner%20Cartridges%20%28Aftermarket%29-_-Rosewill-_-N82E16828228483
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16828228483&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$21.99 - ORICO DCAP-5U 8A 40W 5-Port Smart USB Wall Charger with 2x 5V2.4A Super Charger and 3x 5V1A Regular Charger for iPhone, iPad, Samsung Galaxy, Google Nexus, HTC, Nokia and most of USB charged
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=0S8-0088-00032&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Chargers%20%26%20Cables-_-Orico-_-0S8-0088-00032
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/NeweggImage/ProductImageCompressAll125/A1DS_130542029064945335GAWS7OJDpu.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; ORICO DCAP-5U-BK&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; 0S8-0088-00032&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$21.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;56%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=0S8-0088-00032&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Chargers%20%26%20Cables-_-Orico-_-0S8-0088-00032"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=0S8-0088-00032&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Chargers%20%26%20Cables-_-Orico-_-0S8-0088-00032
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=0S8-0088-00032&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$22.99 - Arsenal Gaming White Gray Cevan AGRODOLCE iPad Tablet Italian Design Bag Model IBAG1
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16834945232&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Laptop%20Cases%20%26%20Bags-_-Arsenal%20Gaming-_-N82E16834945232
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/ProductImageCompressAll125/34-945-232-05.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; IBAG1&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16834945232&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$22.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;30%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16834945232&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Laptop%20Cases%20%26%20Bags-_-Arsenal%20Gaming-_-N82E16834945232"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16834945232&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Laptop%20Cases%20%26%20Bags-_-Arsenal%20Gaming-_-N82E16834945232
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16834945232&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$24.99 - Rosewill Elite 8400mAh External Backup Battery Charger for Smartphone/iPod/MP3 (Black)
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16875949289&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Batteries-_-Rosewill-_-N82E16875949289
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/75-949-289-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; PB-E1-8400-BK&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16875949289&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$24.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;50%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16875949289&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Batteries-_-Rosewill-_-N82E16875949289"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16875949289&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Batteries-_-Rosewill-_-N82E16875949289
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16875949289&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$26.49 - OtterBox AC-77-23836 Defender Series Case for iPad mini - White/Grey
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=9SIA6NS2988129&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-iPad%20Accessories-_-OtterBox-_-9SIA6NS2988129
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/NeweggImage/ProductImageCompressAll125/A6NS_130620682944925129ufRYkb1o3S.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Limited time offer, ends 2/17&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; AC-77-23836&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; 9SIA6NS2988129&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$26.49&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;62%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=9SIA6NS2988129&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-iPad%20Accessories-_-OtterBox-_-9SIA6NS2988129"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=9SIA6NS2988129&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-iPad%20Accessories-_-OtterBox-_-9SIA6NS2988129
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=9SIA6NS2988129&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$28.99 - Rosewill 15.6" Notebook Computer Backpack Model RL - Beta
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16834965092&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Laptop%20Cases%20%26%20Bags-_-Rosewill-_-N82E16834965092
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/ProductImageCompressAll125/34-965-092-34.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; RL-Beta&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16834965092&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$28.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;42%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16834965092&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Laptop%20Cases%20%26%20Bags-_-Rosewill-_-N82E16834965092"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16834965092&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Laptop%20Cases%20%26%20Bags-_-Rosewill-_-N82E16834965092
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16834965092&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$29.99 - CORSAIR Voyager Vega 64GB USB Flash Drive Model CMFVV3-64GB
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16820233703&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-USB%20Flash%20Drives-_-Corsair-_-N82E16820233703
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/20-233-703-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; CMFVV3-64GB&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16820233703&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$29.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;25%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16820233703&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-USB%20Flash%20Drives-_-Corsair-_-N82E16820233703"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16820233703&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-USB%20Flash%20Drives-_-Corsair-_-N82E16820233703
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16820233703&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$29.99 - Rosewill METAS BLACK Rigid Aluminum Body and ABS plastic top cover 3.5" USB3.0 &amp; eSATA External Enclosure
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16817182265&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Hard%20Drive%20Enclosures-_-Rosewill-_-N82E16817182265
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/17-182-265-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; RDEE-12001&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16817182265&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$29.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;50%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16817182265&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Hard%20Drive%20Enclosures-_-Rosewill-_-N82E16817182265"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16817182265&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Hard%20Drive%20Enclosures-_-Rosewill-_-N82E16817182265
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16817182265&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$32.99 - Thermal Laminator Value Pack, 9" W, with 20 Letter Size Pouches
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=1KD-0010-00001&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Laminating%20%26%20Binding-_-Scotch-_-1KD-0010-00001
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/NeweggImage/ProductImageCompressAll125/A1VJ_1_20150120160911925.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; 051141945286&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; 1KD-0010-00001&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$32.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;51%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=1KD-0010-00001&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Laminating%20%26%20Binding-_-Scotch-_-1KD-0010-00001"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=1KD-0010-00001&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Laminating%20%26%20Binding-_-Scotch-_-1KD-0010-00001
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=1KD-0010-00001&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$33.99 - TRENDnet TEW-805UB AC1200 Dual Band Wireless USB Adapter
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16833156447&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Wireless%20Adapters-_-TRENDnet-_-N82E16833156447
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/33-156-447-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; TEW-805UB&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16833156447&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$33.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;51%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16833156447&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Wireless%20Adapters-_-TRENDnet-_-N82E16833156447"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16833156447&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Wireless%20Adapters-_-TRENDnet-_-N82E16833156447
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16833156447&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$39.99 - SHITO 66-Piece Homeowner Tool Set, Carbon Steel W/Heat Treatment, ANSI standards, Life Time Warranty, Made in Taiwan
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16803166002&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Tool%20Sets-_-SHITO%20Co.%2c%20Ltd-_-N82E16803166002
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/03-166-002-TS?$S125$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; TSM066ABP-ST&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16803166002&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$39.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;43%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16803166002&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Tool%20Sets-_-SHITO%20Co.%2c%20Ltd-_-N82E16803166002"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16803166002&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Tool%20Sets-_-SHITO%20Co.%2c%20Ltd-_-N82E16803166002
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16803166002&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$42.99 - Havit USB Multimedia key backlit waterproof Gaming Game keyboard with 19 keys without conflict + Havit 7 color 2400 dpi gaming mouse set
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=9SIA24P2GN0677&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Keyboards-_-Singulard%20Industrial%20Limited-_-9SIA24P2GN0677
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/NeweggImage/ProductImageCompressAll125/A24P_130661627125127576VA64rj53tV.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Limited time offer, ends 2/17&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; Havitk104672R-black&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; 9SIA24P2GN0677&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$42.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;10%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=9SIA24P2GN0677&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Keyboards-_-Singulard%20Industrial%20Limited-_-9SIA24P2GN0677"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=9SIA24P2GN0677&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Keyboards-_-Singulard%20Industrial%20Limited-_-9SIA24P2GN0677
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=9SIA24P2GN0677&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$34.99 - ENERMAX ETS-T40-W White 120mm Cluster CPU Cooler with Cluster APS PWM Fan
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16835214042&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-CPU%20Fans%20%26%20Heatsinks-_-Enermax-_-N82E16835214042
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/35-214-042-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; ETS-T40-W&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16835214042&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$34.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;10%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16835214042&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-CPU%20Fans%20%26%20Heatsinks-_-Enermax-_-N82E16835214042"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16835214042&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-CPU%20Fans%20%26%20Heatsinks-_-Enermax-_-N82E16835214042
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16835214042&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$45.99 - SIIG USB2.0 to VGA Pro External Video Card Display extender JU-VG0012-S1
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16815150177&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-USB%20Display%20Adapters-_-SIIG%2c%20Inc-_-N82E16815150177
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/15-150-177-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; JU-VG0012-S1&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16815150177&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$45.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;16%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16815150177&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-USB%20Display%20Adapters-_-SIIG%2c%20Inc-_-N82E16815150177"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16815150177&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-USB%20Display%20Adapters-_-SIIG%2c%20Inc-_-N82E16815150177
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16815150177&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;$46.99 - Brother P-touch PT-P700 Label Maker&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16828113892&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Barcode%20Printer-_-Brother-_-N82E16828113892
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/28-113-892-TS?$S125$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Brother special savings, ends 2/28&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; PT-P700&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16828113892&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$46.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;30%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16828113892&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Barcode%20Printer-_-Brother-_-N82E16828113892"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16828113892&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Barcode%20Printer-_-Brother-_-N82E16828113892
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16828113892&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+HP 951 Combo-pack Cyan/Magenta/Yellow Officejet Ink Cartridges (CR314FN#140) for OfficeJet Pro 8100, 8600
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16828415267&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Ink%20Cartridges%20%28Genuine%20Brands%29-_-Hewlett-Packard-_-N82E16828415267
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/28-415-267-TS?$S125$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Free USD $20 gift card by mail w/ $99+ eligible HP ink, limited offer&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; CR314FN#140&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16828415267&lt;/div&gt; &lt;a href='http://www.newegg.com/Product/Product.aspx?Item=N82E16828415267'&gt; &lt;img src='http://images10.newegg.com/WebResource/Themes/2005/Nest/clickmetoseeprice.jpg' alt="Why we can't show the price" /&gt;&lt;/a&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16828415267&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Ink%20Cartridges%20%28Genuine%20Brands%29-_-Hewlett-Packard-_-N82E16828415267"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16828415267&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Ink%20Cartridges%20%28Genuine%20Brands%29-_-Hewlett-Packard-_-N82E16828415267
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16828415267&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$49.99 - Toshiba THNSNC128GMDJ 128GB SATA Macbook Air 11" 13" A1370 A1369 661-6051, 655-1664A, 655-1634 Internal Solid State Drive (SSD)
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16820168164&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Internal%20SSDs-_-Toshiba-_-N82E16820168164
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/20-168-164-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; THNSNC128GMDJ&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16820168164&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$49.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;44%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16820168164&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Internal%20SSDs-_-Toshiba-_-N82E16820168164"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16820168164&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Internal%20SSDs-_-Toshiba-_-N82E16820168164
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16820168164&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$54.99 - Athena Power AP-P4ATX60FE 600W Single EPS12V V2.91 SLI and CrossFire Ready Supports Intel Core i7 Server Power Supply
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16817338012&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Server%20Power%20Supplies-_-Athena%20Power-_-N82E16817338012
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/17-338-012-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; AP-P4ATX60FE&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16817338012&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$54.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;15%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16817338012&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Server%20Power%20Supplies-_-Athena%20Power-_-N82E16817338012"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16817338012&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Server%20Power%20Supplies-_-Athena%20Power-_-N82E16817338012
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16817338012&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$63.99 - CORSAIR ValueSelect 8GB 204-Pin DDR3 SO-DIMM DDR3 1333 (PC3 10600) Laptop Memory Model CMSO8GX3M1A1333C9
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16820233216&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Laptop%20Memory-_-Corsair-_-N82E16820233216
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/20-233-216-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; CMSO8GX3M1A1333C9&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16820233216&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$63.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;20%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16820233216&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Laptop%20Memory-_-Corsair-_-N82E16820233216"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16820233216&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Laptop%20Memory-_-Corsair-_-N82E16820233216
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16820233216&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$65.99 - Metropolitan SK-1 Air Force Blaster Sidekick Compact &amp; Portable Motorcycle Dryer Black
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16896367010&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Hand%20Held%20Vacuums-_-Metropolitan%20Vacuum%20Cleaner%20Company%2c%20Inc-_-N82E16896367010
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/96-367-010-TS?$S125$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; SK-1&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16896367010&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$65.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;18%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16896367010&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Hand%20Held%20Vacuums-_-Metropolitan%20Vacuum%20Cleaner%20Company%2c%20Inc-_-N82E16896367010"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16896367010&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Hand%20Held%20Vacuums-_-Metropolitan%20Vacuum%20Cleaner%20Company%2c%20Inc-_-N82E16896367010
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16896367010&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$69.99 - Rosewill VALENS Series VALENS-600 600W Continuous @40°C,80 PLUS Gold Certified, Single +12V Rail,ATX12V v2.31/EPS12V v2.92,SLI Ready, Crossfire Ready, Active-PFC Power Supply
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16817182330&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Power%20Supplies-_-Rosewill-_-N82E16817182330
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/17-182-330-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; VALENS-600&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16817182330&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$69.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;30%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16817182330&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Power%20Supplies-_-Rosewill-_-N82E16817182330"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16817182330&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Power%20Supplies-_-Rosewill-_-N82E16817182330
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16817182330&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;$69.00 - VANGUARD Alta CA 204AGH Tripod&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16830988147&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Camera%20Tripods-_-VANGUARD-_-N82E16830988147
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/30-988-147-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; Alta CA 204AGH&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16830988147&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$69.00&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;40%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16830988147&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Camera%20Tripods-_-VANGUARD-_-N82E16830988147"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16830988147&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Camera%20Tripods-_-VANGUARD-_-N82E16830988147
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16830988147&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$89.99 - Rosewill VIPER Z ATX Mid Tower Gaming Computer Case, support VGA card length up to 423mm, support up to 5 Fans
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16811147240&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Computer%20Cases-_-Rosewill-_-N82E16811147240
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/11-147-240-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Upgrade version of Top Seller BlackHawk&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; VIPER Z&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16811147240&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$89.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;25%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16811147240&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Computer%20Cases-_-Rosewill-_-N82E16811147240"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16811147240&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Computer%20Cases-_-Rosewill-_-N82E16811147240
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16811147240&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$94.99 - TRIPP LITE DWM2655M Black 26" - 55" Display TV LCD Wall Mount Arm Swivel Tilt Flat Screen
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16886944031&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-TV%20Mounts-_-Tripp%20Lite-_-N82E16886944031
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/ProductImageCompressAll125/86-944-031-02.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; DWM2655M&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16886944031&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$94.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;21%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16886944031&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-TV%20Mounts-_-Tripp%20Lite-_-N82E16886944031"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461316&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16886944031&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-TV%20Mounts-_-Tripp%20Lite-_-N82E16886944031
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16886944031&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$99.99 - Antennas Direct DB4E Extended Range Multi-Directional Bowtie UHF Antenna 65+ Miles
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16882881018&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-TV%20Antennas%20%26%20Accessories-_-Antennas%20Direct-_-N82E16882881018
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/ProductImageCompressAll125/82-881-018-02.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; DB4E&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16882881018&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$99.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;17%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16882881018&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-TV%20Antennas%20%26%20Accessories-_-Antennas%20Direct-_-N82E16882881018"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16882881018&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-TV%20Antennas%20%26%20Accessories-_-Antennas%20Direct-_-N82E16882881018
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16882881018&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$99.99 - PNY XLR8 SSD9SC240GMDA-RB 2.5" 240GB SATA III Internal Solid State Drive (SSD)
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16820178456&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Internal%20SSDs-_-PNY%20Technologies%2c%20Inc.-_-N82E16820178456
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/20-178-456-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; SSD9SC240GMDA-RB&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16820178456&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$99.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;23%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16820178456&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Internal%20SSDs-_-PNY%20Technologies%2c%20Inc.-_-N82E16820178456"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16820178456&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Internal%20SSDs-_-PNY%20Technologies%2c%20Inc.-_-N82E16820178456
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16820178456&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$104.99 - Transcend TS256GSSD370 2.5" 256GB SATA III MLC Internal Solid State Drive (SSD)
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16820510032&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Internal%20SSDs-_-Transcend-_-N82E16820510032
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/20-510-032-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; TS256GSSD370&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16820510032&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$104.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;25%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16820510032&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Internal%20SSDs-_-Transcend-_-N82E16820510032"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16820510032&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Internal%20SSDs-_-Transcend-_-N82E16820510032
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16820510032&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$74.99 - ASUS Z87-A (NFC EXPRESS EDITION) LGA 1150 Intel Z87 HDMI SATA 6Gb/s USB 3.0 ATX Intel Motherboard
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16813132070&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Intel%20Motherboards-_-ASUS-_-N82E16813132070
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/13-132-070-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; Z87-A (NFC EXPRESS)&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16813132070&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$74.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;24%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16813132070&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Intel%20Motherboards-_-ASUS-_-N82E16813132070"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16813132070&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Intel%20Motherboards-_-ASUS-_-N82E16813132070
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16813132070&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$110.99 - Brother QL-720NW Direct Thermal Label Printer – USB, Ethernet, Serial, 802.11 b/g/n Interface
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16828113776&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Barcode%20Printer-_-Brother-_-N82E16828113776
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/28-113-776-TS?$S125$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Brother special savings, ends 2/28&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; QL-720NW&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16828113776&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$110.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;20%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16828113776&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Barcode%20Printer-_-Brother-_-N82E16828113776"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16828113776&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Barcode%20Printer-_-Brother-_-N82E16828113776
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16828113776&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$119.99 - LaCie Porsche Design P'9230 2TB USB 3.0 3.5" Desktop External Hard Drive 302002
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16822154543&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Desktop%20External%20Hard%20Drives-_-LaCie-_-N82E16822154543
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/22-154-543-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; 302002&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16822154543&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$119.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16822154543&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Desktop%20External%20Hard%20Drives-_-LaCie-_-N82E16822154543"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16822154543&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Desktop%20External%20Hard%20Drives-_-LaCie-_-N82E16822154543
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16822154543&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$119.99 - Mushkin Enhanced Blackline 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model 997069
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16820226337&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Desktop%20Memory-_-Mushkin%20Enhanced-_-N82E16820226337
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/20-226-337-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; 997069&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16820226337&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$119.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;14%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16820226337&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Desktop%20Memory-_-Mushkin%20Enhanced-_-N82E16820226337"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16820226337&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Desktop%20Memory-_-Mushkin%20Enhanced-_-N82E16820226337
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16820226337&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$129.99 - Acer H6 Series H226HQLbid Black 21.5" 5ms (GTG) HDMI Widescreen LED Backlight LED Backlit LCD Monitor, IPS Panel
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16824009484&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-LCD%20%2f%20LED%20Monitors-_-Acer%20America-_-N82E16824009484
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/24-009-484-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;+ USD $10 off w/ promo code EMCANKN22, ends 2/18&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; UM.WH6AA.002&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16824009484&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$129.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;24%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16824009484&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-LCD%20%2f%20LED%20Monitors-_-Acer%20America-_-N82E16824009484"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16824009484&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-LCD%20%2f%20LED%20Monitors-_-Acer%20America-_-N82E16824009484
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16824009484&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;$149.99 - elgato 10025010 Game Capture HD&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16815131019&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Video%20Devices%20%26%20TV%20Tuners-_-Elgato-_-N82E16815131019
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/15-131-019-TS?$S125$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; 10025010&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16815131019&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$149.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;17%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16815131019&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Video%20Devices%20%26%20TV%20Tuners-_-Elgato-_-N82E16815131019"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16815131019&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Video%20Devices%20%26%20TV%20Tuners-_-Elgato-_-N82E16815131019
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16815131019&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$169.99 - Elgato Game Capture HD60 10025015, 1080p Capture with 60 fps
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=0TP-0072-00001&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Video%20Devices%20%26%20TV%20Tuners-_-Elgato-_-0TP-0072-00001
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/ProductImageCompressAll125/0TP-0072-00001-01.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Free BioShock Infinite game code with purchase, limited offer&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; 10025015&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; 0TP-0072-00001&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$169.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;15%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=0TP-0072-00001&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Video%20Devices%20%26%20TV%20Tuners-_-Elgato-_-0TP-0072-00001"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=0TP-0072-00001&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Video%20Devices%20%26%20TV%20Tuners-_-Elgato-_-0TP-0072-00001
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=0TP-0072-00001&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$169.99 - Seagate NAS HDD ST4000VN003 4TB 64MB Cache SATA 6.0Gb/s Internal Hard Drive + Rescue Data Recovery Services
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16822178638&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Desktop%20Hard%20Drives-_-Seagate-_-N82E16822178638
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/ProductImageCompressAll125/22-178-638-12.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; ST4000VN003&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16822178638&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$169.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;15%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16822178638&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Desktop%20Hard%20Drives-_-Seagate-_-N82E16822178638"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16822178638&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Desktop%20Hard%20Drives-_-Seagate-_-N82E16822178638
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16822178638&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$179.99 - Thermaltake Level 10 GT Snow Edition (VN10006W2N) White and Black SECC / Plastic ATX Full Tower Computer Case with 4 Fans-1x 200mm side fan, 1x 200mm top fan, 1x 200mm front fan and 1x 140mm rear fan
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16811133192&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Computer%20Cases-_-Thermaltake-_-N82E16811133192
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/11-133-192-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; VN10006W2N&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16811133192&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$179.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;38%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16811133192&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Computer%20Cases-_-Thermaltake-_-N82E16811133192"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16811133192&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Computer%20Cases-_-Thermaltake-_-N82E16811133192
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16811133192&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$199.99 - BenQ GL2760H Black 27" 2ms HDMI Widescreen LED Backlight LCD Monitor TN Panel
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16824014378&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-LCD%20%2f%20LED%20Monitors-_-BenQ-_-N82E16824014378
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/24-014-378-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Additional savings w/ promo code EMCANKN25, ends 2/18&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; GL2760H&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16824014378&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$199.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;46%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16824014378&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-LCD%20%2f%20LED%20Monitors-_-BenQ-_-N82E16824014378"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16824014378&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-LCD%20%2f%20LED%20Monitors-_-BenQ-_-N82E16824014378
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16824014378&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+HP LaserJet Pro 400 M401DNE 35PPM 1200dpi 256MB Duplex USB Ethernet Mono Laser Printer
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16828415640&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Laser%20Printers-_-Hewlett-Packard-_-N82E16828415640
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/28-415-640-TS?$S125$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;USD $20 off w/ HP 80X toner combo purchase, click here&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; M401dne&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16828415640&lt;/div&gt; &lt;a href='http://www.newegg.com/Product/Product.aspx?Item=N82E16828415640'&gt; &lt;img src='http://images10.newegg.com/WebResource/Themes/2005/Nest/clickmetoseeprice.jpg' alt="Why we can't show the price" /&gt;&lt;/a&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16828415640&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Laser%20Printers-_-Hewlett-Packard-_-N82E16828415640"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16828415640&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Laser%20Printers-_-Hewlett-Packard-_-N82E16828415640
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16828415640&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$179.99 - ASUS SABERTOOTH Z87 LGA 1150 Intel Z87 HDMI SATA 6Gb/s USB 3.0 ATX Intel Motherboard
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16813131976&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Intel%20Motherboards-_-ASUS-_-N82E16813131976
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/13-131-976-TS?$S125$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Supports Core i7-4790K, Core i5-4690K, Pentium G3258&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; SABERTOOTH Z87&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16813131976&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$179.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;16%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16813131976&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Intel%20Motherboards-_-ASUS-_-N82E16813131976"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16813131976&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Intel%20Motherboards-_-ASUS-_-N82E16813131976
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16813131976&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$224.00 - WD BLACK SERIES WD4003FZEX 4TB 7200 RPM 64MB Cache SATA 6.0Gb/s 3.5" Internal Hard Drive
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16822236622&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Desktop%20Hard%20Drives-_-Western%20Digital-_-N82E16822236622
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/22-236-622-TS?$S125$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Extra savings w/ promo code AFWDFB2X, ends 2/20&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; WD4003FZEX&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16822236622&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$224.00&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;20%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16822236622&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Desktop%20Hard%20Drives-_-Western%20Digital-_-N82E16822236622"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16822236622&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Desktop%20Hard%20Drives-_-Western%20Digital-_-N82E16822236622
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16822236622&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$229.99 - Vicovation Vico-Marcus 4 UHDR XHD Camcorder
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=9SIA46J1RE9733&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Onboard%20Camera%20Systems-_-VicoVation-_-9SIA46J1RE9733
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/NeweggImage/ProductImageCompressAll125/A46J_130492630543217428ygSsUYLktt.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Limited time offer, ends 2/21&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; 4717535130312&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; 9SIA46J1RE9733&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$229.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;23%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=9SIA46J1RE9733&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Onboard%20Camera%20Systems-_-VicoVation-_-9SIA46J1RE9733"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=9SIA46J1RE9733&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Onboard%20Camera%20Systems-_-VicoVation-_-9SIA46J1RE9733
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=9SIA46J1RE9733&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$259.99 - ZTE nubia 5S mini LTE 3G/4G LTE Quad-Core 1.2GHz Unlocked Cell Phone 4.7” OGS screen up to 32G expandable memory
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16875705026&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Cell%20Phones%20-%20Unlocked-_-ZTE-_-N82E16875705026
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/ProductImageCompressAll125/75-705-026-04.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; NX405H&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16875705026&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$259.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;38%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16875705026&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Cell%20Phones%20-%20Unlocked-_-ZTE-_-N82E16875705026"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16875705026&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Cell%20Phones%20-%20Unlocked-_-ZTE-_-N82E16875705026
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16875705026&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;...&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$289.99 - HP Pavilion 500-200 Mini Tower Desktop PC with Intel Core i3-4130 3.40Ghz, 4GB DDR3 RAM, 1TB HDD, DVDRW LightScribe, SD Card Reader, Windows 8 Professional 64 Bit
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16883148184&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Desktop%20PCs-_-GENERIC-_-N82E16883148184
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/83-148-184-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; TS-002-005-W8PRO&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16883148184&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$289.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;31%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16883148184&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Desktop%20PCs-_-GENERIC-_-N82E16883148184"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16883148184&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Desktop%20PCs-_-GENERIC-_-N82E16883148184
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16883148184&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;$299.00 - NVIDIA SHIELD Tablet (WiFi)&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16834762001&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Tablets-_-NVIDIA-_-N82E16834762001
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/34-762-001-TS?$S125$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Free eggpoints w/ NVIDIA SHIELD 16GB tablet purchase, limited offer&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; 940-81761-2500-000&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16834762001&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$299.00&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16834762001&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Tablets-_-NVIDIA-_-N82E16834762001"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16834762001&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Tablets-_-NVIDIA-_-N82E16834762001
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16834762001&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$299.99 - PIPER RP1.0-NA-ZP1-W HD 1080p Camera &amp; Z-Wave Home Automation Door Sensor and Smart Switch Kit, Bulit-In Temperature, Humidity, Sound, Motion Sensors, 2 Way Audio, and Siren (White)
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16881670001&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Sensor%20%26%20Accessories-_-Piper-_-N82E16881670001
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/ProductImageCompressAll125/81-670-001-02.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; RP1.0-NA-ZP1-W&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16881670001&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$299.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16881670001&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Sensor%20%26%20Accessories-_-Piper-_-N82E16881670001"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16881670001&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Sensor%20%26%20Accessories-_-Piper-_-N82E16881670001
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16881670001&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$299.99 - Lenovo ThinkPad X201 12.1” LED Backlit Notebook with Intel Core i7-620M (2.66GHz), 4GB DDR3 Memory, 160GB HDD, Windows 7 Professional 64 Bit
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16834318372&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Laptops%20%2f%20Notebooks-_-Lenovo-_-N82E16834318372
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/34-318-372-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; X201/2.0/4/160/W7P&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16834318372&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$299.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;21%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16834318372&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Laptops%20%2f%20Notebooks-_-Lenovo-_-N82E16834318372"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16834318372&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Laptops%20%2f%20Notebooks-_-Lenovo-_-N82E16834318372
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16834318372&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$299.99 - LG PB60G 1280x800 WXGA 500 ANSI Lumens, USB2.0 File Viewer, Built-in Speakers, 3D Ready Mini-Portable LED Projector
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=0V5-0048-000N6&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Home%20Theater%20Projectors-_-LG%20Electronics-_-0V5-0048-000N6
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/ProductImageCompressAll125/0V5-0048-000N6-04.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Special savings, ends 2/18&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; PB60G&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; 0V5-0048-000N6&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$299.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;40%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=0V5-0048-000N6&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Home%20Theater%20Projectors-_-LG%20Electronics-_-0V5-0048-000N6"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=0V5-0048-000N6&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Home%20Theater%20Projectors-_-LG%20Electronics-_-0V5-0048-000N6
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=0V5-0048-000N6&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$314.99 - ThinkPad T Series T410 Notebook Intel Core i5 2.67GHz 4GB Memory 320GB HDD 14.1" Windows 7 Professional 64-Bit
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16834318291&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Laptops%20%2f%20Notebooks-_-Lenovo-_-N82E16834318291
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/34-318-291-TS?$S125$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; ThinkPadT410-4G/320G&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16834318291&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$314.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;37%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16834318291&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Laptops%20%2f%20Notebooks-_-Lenovo-_-N82E16834318291"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16834318291&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Laptops%20%2f%20Notebooks-_-Lenovo-_-N82E16834318291
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16834318291&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$335.99 - CyberPower Smart App Sinewave PR1500LCD 1500VA Pure Sine Wave Mini-Tower LCD UPS
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16842102145&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-UPS-_-CyberPower-_-N82E16842102145
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/42-102-145-TS?$S125$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; PR1500LCD&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16842102145&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$335.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;16%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16842102145&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-UPS-_-CyberPower-_-N82E16842102145"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16842102145&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-UPS-_-CyberPower-_-N82E16842102145
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16842102145&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$354.99 - GIGABYTE GV-N970G1 GAMING-4GD GeForce GTX 970 4GB 256-Bit GDDR5 PCI Express 3.0 SLI Support Video Card
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16814125684&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Desktop%20Graphics%20Cards-_-GIGABYTE-_-N82E16814125684
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/14-125-684-TS?$S125$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;PC Gamer Editor Choice Award&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; GV-N970G1 GAMING-4GD&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16814125684&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$354.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16814125684&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Desktop%20Graphics%20Cards-_-GIGABYTE-_-N82E16814125684"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16814125684&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Desktop%20Graphics%20Cards-_-GIGABYTE-_-N82E16814125684
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16814125684&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$377.99 - Pioneer Series EAA-3151S: AMD A10-5800 Trinity Quad-Core 3.8GHz, Gigabyte GA-F2A88XN-WiFi mITX, G.Skill Ripjaws X Series 8GB DDR3 1600, Rosewill Stallion 450W Power Supply, Raidmax Element mITX Case, Western Digital Blue 1TB Internal HDD
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/ComboBundleDetails.aspx?ItemList=Combo.2151736&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-MasterCombo-_-02072015-_-2151736
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/NeweggImage/ProductImageCompressAll125/combo2151736.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;A Great PC For A Home Theater Setup&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$377.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;5%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=combo.2151736&amp;Submit=ADD&amp;target=NEWEGGCART&amp;cm_sp=OTC-RSS-_-MasterCombo-_-02072015-_-2151736"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/ComboBundleDetails.aspx?ItemList=Combo.2151736&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-MasterCombo-_-02072015-_-2151736
+&lt;/guid&gt;
+&lt;comments/&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$399.99 - Acer Aspire E5-551-T5SV Notebook AMD A-Series A10-7300 (1.90GHz) 4GB Memory 500GB HDD AMD Radeon R6 Series 15.6" Windows 8.1 64-Bit
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16834314557&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Laptops%20%2f%20Notebooks-_-Acer%20America-_-N82E16834314557
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/34-314-557-TS?$S125$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Free Windows 10 upgrade when available&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; E5-551-T5SV&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16834314557&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$399.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;20%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16834314557&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Laptops%20%2f%20Notebooks-_-Acer%20America-_-N82E16834314557"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16834314557&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Laptops%20%2f%20Notebooks-_-Acer%20America-_-N82E16834314557
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16834314557&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$401.99 - ViewSonic NMP-570W Full HD 1080p Solid-State Wireless Network Media Player
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16824994761&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Digital%20Signage%20Media%20Players-_-ViewSonic-_-N82E16824994761
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/ProductImageCompressAll125/24-994-761-11.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; NMP-570W&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16824994761&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$401.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;20%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16824994761&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Digital%20Signage%20Media%20Players-_-ViewSonic-_-N82E16824994761"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16824994761&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Digital%20Signage%20Media%20Players-_-ViewSonic-_-N82E16824994761
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16824994761&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$419.99 - Fujitsu ScanSnap iX500 Scanner for PC and Mac (PA03656-B005)
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16838115095&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Document%20Scanners-_-Fujitsu-_-N82E16838115095
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/38-115-095-TS?$S125$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; ScanSnap iX500&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16838115095&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$419.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;9%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16838115095&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Document%20Scanners-_-Fujitsu-_-N82E16838115095"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16838115095&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Document%20Scanners-_-Fujitsu-_-N82E16838115095
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16838115095&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$449.95 - Yamaha RX-V577 7.2 Channel Wi-Fi Network AV Receiver
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16882115478&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Receivers-_-Yamaha-_-N82E16882115478
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/82-115-478-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Special savings, while supplies last&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; RX-V577&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16882115478&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$449.95&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;18%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16882115478&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Receivers-_-Yamaha-_-N82E16882115478"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16882115478&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Receivers-_-Yamaha-_-N82E16882115478
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16882115478&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$499.99 - ThinkPad Edge E440 Touch (20C5008UUS) Notebook Intel Core i3 4000M (2.4GHz) 4GB Memory 500GB HDD Intel HD Graphics 4600 14.0" Touchscreen Windows 8.1 64-Bit
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16834317278&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Laptops%20%2f%20Notebooks-_-Lenovo-_-N82E16834317278
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/34-317-278-TS?$S125$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;Free Windows 10 upgrade when available&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; 20C5008UUS&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16834317278&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$499.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;23%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16834317278&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Laptops%20%2f%20Notebooks-_-Lenovo-_-N82E16834317278"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16834317278&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Laptops%20%2f%20Notebooks-_-Lenovo-_-N82E16834317278
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16834317278&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$599.99 - ASUS BT1AG-I5347S013B (90PF0091-M00130) Desktop PC Intel Core i5 3470s (2.90GHz) 8GB DDR3 1TB HDD Windows 7 Professional 64-Bit
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16883220575&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Desktop%20PCs-_-ASUS-_-N82E16883220575
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/83-220-575-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;USD $60 off w/ LCD monitor combo purchase, limited offer&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; BT1AG-I5347S013B&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16883220575&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$599.99&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;20%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16883220575&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Desktop%20PCs-_-ASUS-_-N82E16883220575"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16883220575&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-All%20Desktop%20PCs-_-ASUS-_-N82E16883220575
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16883220575&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$999.00 - ASUS ROG GL771JM-DH71 Gaming Laptop Intel Core i7 4710HQ (2.50GHz) 12GB Memory 1TB HDD NVIDIA GeForce GTX 860M 2GB 17.3" Windows 8.1 64-Bit
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16834232205&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Gaming%20Laptops-_-ASUS-_-N82E16834232205
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images17.newegg.com/is/image/newegg/34-232-205-TS?$S125W$" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div&gt;&lt;strong&gt;Model #:&lt;/strong&gt; GL771JM-DH71&lt;/div&gt; &lt;div style="margin-bottom:15px;"&gt;&lt;strong&gt;Item #:&lt;/strong&gt; N82E16834232205&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$999.00&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;23%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=N82E16834232205&amp;Submit=ADD&amp;target=NEWEGGCART&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Gaming%20Laptops-_-ASUS-_-N82E16834232205"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/Product.aspx?Item=N82E16834232205&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-Gaming%20Laptops-_-ASUS-_-N82E16834232205
+&lt;/guid&gt;
+&lt;comments&gt;
+http://www.newegg.com/Product/ProductReview.aspx?Item=N82E16834232205&amp;nm_mc=OTC-RSS
+&lt;/comments&gt;
+&lt;/item&gt;
+&lt;item&gt;
+&lt;title&gt;
+$1,940.49 - Dreadnought Class GIA-K150M: Intel Core i7-5820K 3.3GHz 6-Core, Asus X99-Deluxe LGA 2011-v3, HyperX Predator 16GB DDR4 2133, MSI GTX 980 4GB, Thermaltake 850W, Corsair Obsidian 750D, WD 1TB Blue Internal HDD, Patriot Blaze 240GB SSD
+&lt;/title&gt;
+&lt;link&gt;
+http://www.newegg.com/Product/ComboBundleDetails.aspx?ItemList=Combo.2141811&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-MasterCombo-_-01142015-_-2141811
+&lt;/link&gt;
+&lt;description&gt;
+&lt;div style="width:125px;float:left;clear:none;border:1px solid #ccc;background-color:#fff;padding:15px 5px;margin:10px 10px 10px 0px;"&gt;  &lt;img border="0" src="http://images10.newegg.com/NeweggImage/ProductImageCompressAll125/combo2141811.jpg" width="125" height="94" title="" alt=""&gt; &lt;/div&gt; &lt;p style="margin:15px 0 15px 150px;"&gt; &lt;div style="color:red"&gt;A Gaming PC for the Ages&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Price:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;$1,940.49&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;Save:&lt;/strong&gt; &lt;span style="color:red;font-weight:bold;"&gt;5%&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;a href="http://secure.newegg.com/Shopping/AddToCart.aspx?ItemList=combo.2141811&amp;Submit=ADD&amp;target=NEWEGGCART&amp;cm_sp=OTC-RSS-_-MasterCombo-_-01142015-_-2141811"&gt;Add To Cart&lt;/a&gt;&lt;/div&gt; &lt;/p&gt;&lt;!-- BEGIN COREMETRICS --&gt; &lt;img alt="" class="coremetrics" src="http://data.coremetrics.com/eluminate?tid=1&amp;ci=90172959&amp;vn2=e4.0&amp;st=1424168461332&amp;vn1=4.0.23&amp;ec=utf-8&amp;ul=http%3a%2f%2fwww.newegg.com%3a8010%2fProduct%2fRSS.aspx%3fSubmit%3dRSSDailyDeals&amp;pi=tab%3a%7bRSS_All%20store%7d&amp;cg=2000000000&amp;pv1=E3WEB20"/&gt; &lt;!-- END COREMETRICS --&gt;
+&lt;/description&gt;
+&lt;pubDate&gt;Tue, 17 Feb 2015 10:21:01GMT&lt;/pubDate&gt;
+&lt;guid&gt;
+http://www.newegg.com/Product/ComboBundleDetails.aspx?ItemList=Combo.2141811&amp;nm_mc=OTC-RSS&amp;cm_sp=OTC-RSS-_-MasterCombo-_-01142015-_-2141811
+&lt;/guid&gt;
+&lt;comments/&gt;
+&lt;/item&gt;
+&lt;copyright&gt;
+2000-2015 Newegg Inc.
+&lt;span id="ieFontCheck" style="width:0px;"&gt;A&lt;/span&gt;
+ll rights reserved.
+&lt;/copyright&gt;
+&lt;/channel&gt;
+&lt;/rss&gt;</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Solution" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Solution.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
