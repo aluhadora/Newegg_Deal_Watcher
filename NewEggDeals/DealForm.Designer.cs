@@ -28,6 +28,7 @@
     /// </summary>
     private void InitializeComponent()
     {
+      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DealForm));
       this.optionsPanel = new System.Windows.Forms.Panel();
       this.newCheckBox = new System.Windows.Forms.CheckBox();
       this.dealPanel = new System.Windows.Forms.Panel();
@@ -70,6 +71,7 @@
       this.ClientSize = new System.Drawing.Size(692, 116);
       this.Controls.Add(this.dealPanel);
       this.Controls.Add(this.optionsPanel);
+      this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
       this.Name = "DealForm";
       this.Text = "Deals";
       this.Load += new System.EventHandler(this.FillDeals);
