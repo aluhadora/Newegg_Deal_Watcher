@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using NewEggDeals.Utilities;
 
 namespace NewEggDeals
 {
@@ -14,9 +12,13 @@ namespace NewEggDeals
     [STAThread]
     static void Main()
     {
+      ImageCache.CreateDatabase();
       Application.EnableVisualStyles();
       Application.SetCompatibleTextRenderingDefault(false);
-      Application.Run(new Form1());
+
+      LastRan.UpdateOptions();
+
+      Application.Run(new DealForm());
     }
   }
 }

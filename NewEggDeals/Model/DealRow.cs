@@ -1,17 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Globalization;
-using System.IO;
-using System.Linq;
 using System.Net;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Web;
-using System.Windows.Forms;
-using System.Xml;
 using HtmlAgilityPack;
+using NewEggDeals.Utilities;
 using HtmlDocument = HtmlAgilityPack.HtmlDocument;
 
 namespace NewEggDeals.Model
@@ -82,7 +75,16 @@ namespace NewEggDeals.Model
 
     public void DownloadImage()
     {
-      Image = DownloadRemoteImageFile(ImageURL);
+      var cachedImage = ImageCache.LoadImage(ImageURL);
+      if (cachedImage == null)
+      {
+        Image = DownloadRemoteImageFile(ImageURL);
+        ImageCache.SaveImage(ImageURL, Image);
+      }
+      else
+      {
+        Image = cachedImage;
+      }
     }
 
     //private static Image DownloadRemoteImageFile(string uri)

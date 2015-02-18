@@ -1,38 +1,42 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Net;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using NewEggDeals.Controls;
 using NewEggDeals.Model;
+using NewEggDeals.Utilities;
 
 namespace NewEggDeals
 {
-  public partial class Form1 : Form
+  public partial class DealForm : Form
   {
-    public Form1()
+    private Deals _model;
+
+    public DealForm()
     {
       InitializeComponent();
 
-      panel1.AutoScroll = true;
-      //vScrollBar1.Scroll += (sender, e) => { panel1.VerticalScroll.Value = vScrollBar1.Value; };
+      dealPanel.AutoScroll = true;
+      
+      if (Options.LastRan.HasValue)
+      {
+        Text += string.Format(" (Last Ran: {0})", Options.LastRan.Value);        
+      }
+
+      _model = new Deals();
     }
 
-    private void Form1_Load(object sender, EventArgs e)
+    private void FillDeals(object sender, EventArgs e)
     {
-      var client = new WebClient();
-
       const int height = 64;
       var top = 0;
 
-      var rows = XmlHelper.DealRows(client.DownloadString("http://www.newegg.com/Product/RSS.aspx?Submit=RSSDailyDeals"));
-      Height = 0;
+      var rows = _model.DealRows;
+      Height = 70;
+
+      dealPanel.Controls.Clear();
 
       foreach (var dealRow in rows.Where(x => x.Price.HasValue).OrderByDescending(x => x.SavingsPercent))
       {
@@ -41,28 +45,27 @@ namespace NewEggDeals
           Left = 0,
           Top = top,
           Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top,
-          Width = panel1.Width,
+          Width = dealPanel.Width,
         };
 
         top += height;
-        //vScrollBar1.Refresh();
 
         control.Fill(dealRow);
 
-        panel1.Controls.Add(control);
+        dealPanel.Controls.Add(control);
 
         AsyncDownloadImage(control, dealRow);
 
         Height = Math.Min(Height + height, 800);
-        ;
-        //if (panel1.Controls.Count >= 10) return;
       }
+
+      newCheckBox.Checked = Options.OnlyNew;
     }
 
     private void AsyncDownloadImage(DealControl control, DealRow dealRow)
     {
       new Thread(() => Download(control, dealRow)).Start();
-      //BeginInvoke(new Action<DealControl, DealRow>(Download), control, dealRow);
+      //Download(control,dealRow);
     }
 
     private void Download(DealControl control, DealRow dealRow)
@@ -81,6 +84,14 @@ namespace NewEggDeals
       {
         control.SetImage();
       }
+    }
+
+    private void newCheckBox_CheckedChanged(object sender, EventArgs e)
+    {
+      Options.OnlyNew = newCheckBox.Checked;
+      Options.Save(Options.OnlyNewOption);
+
+      FillDeals(sender, e);
     }
   }
 }
