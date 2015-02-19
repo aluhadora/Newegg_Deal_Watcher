@@ -58,7 +58,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Controls\DealControl.cs">
       <SubType>UserControl</SubType>
     </Compile>

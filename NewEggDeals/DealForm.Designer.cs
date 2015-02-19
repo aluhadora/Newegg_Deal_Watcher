@@ -32,11 +32,15 @@
       this.optionsPanel = new System.Windows.Forms.Panel();
       this.newCheckBox = new System.Windows.Forms.CheckBox();
       this.dealPanel = new System.Windows.Forms.Panel();
+      this.label1 = new System.Windows.Forms.Label();
+      this.searchTextBox = new System.Windows.Forms.TextBox();
       this.optionsPanel.SuspendLayout();
       this.SuspendLayout();
       // 
       // optionsPanel
       // 
+      this.optionsPanel.Controls.Add(this.searchTextBox);
+      this.optionsPanel.Controls.Add(this.label1);
       this.optionsPanel.Controls.Add(this.newCheckBox);
       this.optionsPanel.Dock = System.Windows.Forms.DockStyle.Top;
       this.optionsPanel.Location = new System.Drawing.Point(0, 0);
@@ -64,6 +68,24 @@
       this.dealPanel.Size = new System.Drawing.Size(692, 86);
       this.dealPanel.TabIndex = 2;
       // 
+      // label1
+      // 
+      this.label1.AutoSize = true;
+      this.label1.Location = new System.Drawing.Point(192, 8);
+      this.label1.Name = "label1";
+      this.label1.Size = new System.Drawing.Size(44, 13);
+      this.label1.TabIndex = 1;
+      this.label1.Text = "Search:";
+      // 
+      // searchTextBox
+      // 
+      this.searchTextBox.Location = new System.Drawing.Point(242, 5);
+      this.searchTextBox.Name = "searchTextBox";
+      this.searchTextBox.Size = new System.Drawing.Size(243, 20);
+      this.searchTextBox.TabIndex = 2;
+      this.searchTextBox.TextChanged += new System.EventHandler(this.searchTextBox_TextChanged);
+      this.searchTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.searchTextBox_KeyDown);
+      // 
       // DealForm
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -86,6 +108,8 @@
     private System.Windows.Forms.Panel optionsPanel;
     private System.Windows.Forms.CheckBox newCheckBox;
     private System.Windows.Forms.Panel dealPanel;
+    private System.Windows.Forms.TextBox searchTextBox;
+    private System.Windows.Forms.Label label1;
 
   }
 }

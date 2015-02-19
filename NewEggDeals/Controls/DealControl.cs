@@ -19,6 +19,12 @@ namespace NewEggDeals.Controls
       _row = row;
       titleLabel.Text = row.Title;
       priceLabel.Text = row.Price != null ? row.Price.Value.ToString("$0.00") : string.Empty;
+      FillSavings(row);
+      dateLabel.Text = row.PublishDate.ToString();
+    }
+
+    private void FillSavings(DealRow row)
+    {
       var sb = new StringBuilder();
       if (row.SavingsPercent == null)
       {
@@ -26,7 +32,8 @@ namespace NewEggDeals.Controls
         return;
       }
       sb.Append(row.SavingsPercent != null ? row.SavingsPercent.Value.ToString("p0") : string.Empty);
-      savingsLabel.Text = sb.AppendFormat(" ({0})", (row.OriginalPrice*row.SavingsPercent).Value.ToString("$0.00")).ToString();
+      savingsLabel.Text =
+        sb.AppendFormat(" ({0})", (row.OriginalPrice*row.SavingsPercent).Value.ToString("$0.00")).ToString();
     }
 
     public void SetImage()

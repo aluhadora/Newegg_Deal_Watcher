@@ -34,6 +34,8 @@
       this.label2 = new System.Windows.Forms.Label();
       this.savingsLabel = new System.Windows.Forms.Label();
       this.priceLabel = new System.Windows.Forms.Label();
+      this.dateLabel = new System.Windows.Forms.Label();
+      this.label4 = new System.Windows.Forms.Label();
       ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
       this.SuspendLayout();
       // 
@@ -93,11 +95,31 @@
       this.priceLabel.TabIndex = 4;
       this.priceLabel.Text = "$254.44";
       // 
+      // dateLabel
+      // 
+      this.dateLabel.AutoSize = true;
+      this.dateLabel.Location = new System.Drawing.Point(262, 48);
+      this.dateLabel.Name = "dateLabel";
+      this.dateLabel.Size = new System.Drawing.Size(69, 13);
+      this.dateLabel.TabIndex = 7;
+      this.dateLabel.Text = "23% ($54.00)";
+      // 
+      // label4
+      // 
+      this.label4.AutoSize = true;
+      this.label4.Location = new System.Drawing.Point(200, 48);
+      this.label4.Name = "label4";
+      this.label4.Size = new System.Drawing.Size(56, 13);
+      this.label4.TabIndex = 6;
+      this.label4.Text = "Published:";
+      // 
       // DealControl
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.BackColor = System.Drawing.SystemColors.Window;
+      this.Controls.Add(this.dateLabel);
+      this.Controls.Add(this.label4);
       this.Controls.Add(this.savingsLabel);
       this.Controls.Add(this.priceLabel);
       this.Controls.Add(this.label2);
@@ -120,5 +142,7 @@
     private System.Windows.Forms.Label label2;
     private System.Windows.Forms.Label savingsLabel;
     private System.Windows.Forms.Label priceLabel;
+    private System.Windows.Forms.Label dateLabel;
+    private System.Windows.Forms.Label label4;
   }
 }
