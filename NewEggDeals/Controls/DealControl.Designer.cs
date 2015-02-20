@@ -36,6 +36,8 @@
       this.priceLabel = new System.Windows.Forms.Label();
       this.dateLabel = new System.Windows.Forms.Label();
       this.label4 = new System.Windows.Forms.Label();
+      this.label3 = new System.Windows.Forms.Label();
+      this.camelLinkLabel = new System.Windows.Forms.Label();
       ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
       this.SuspendLayout();
       // 
@@ -54,7 +56,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
       this.titleLabel.Location = new System.Drawing.Point(71, 4);
       this.titleLabel.Name = "titleLabel";
-      this.titleLabel.Size = new System.Drawing.Size(326, 29);
+      this.titleLabel.Size = new System.Drawing.Size(439, 29);
       this.titleLabel.TabIndex = 1;
       this.titleLabel.Text = "TITLE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXY" +
     "";
@@ -100,9 +102,9 @@
       this.dateLabel.AutoSize = true;
       this.dateLabel.Location = new System.Drawing.Point(262, 48);
       this.dateLabel.Name = "dateLabel";
-      this.dateLabel.Size = new System.Drawing.Size(69, 13);
+      this.dateLabel.Size = new System.Drawing.Size(114, 13);
       this.dateLabel.TabIndex = 7;
-      this.dateLabel.Text = "23% ($54.00)";
+      this.dateLabel.Text = "01/01/2001 12:00 AM";
       // 
       // label4
       // 
@@ -113,11 +115,31 @@
       this.label4.TabIndex = 6;
       this.label4.Text = "Published:";
       // 
+      // label3
+      // 
+      this.label3.AutoSize = true;
+      this.label3.Location = new System.Drawing.Point(451, 48);
+      this.label3.Name = "label3";
+      this.label3.Size = new System.Drawing.Size(0, 13);
+      this.label3.TabIndex = 9;
+      // 
+      // camelLinkLabel
+      // 
+      this.camelLinkLabel.AutoSize = true;
+      this.camelLinkLabel.Location = new System.Drawing.Point(413, 48);
+      this.camelLinkLabel.Name = "camelLinkLabel";
+      this.camelLinkLabel.Size = new System.Drawing.Size(97, 13);
+      this.camelLinkLabel.TabIndex = 8;
+      this.camelLinkLabel.Text = "CamelCamelCamel:";
+      this.camelLinkLabel.Click += new System.EventHandler(this.camelLinkLabel_Click);
+      // 
       // DealControl
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.BackColor = System.Drawing.SystemColors.Window;
+      this.Controls.Add(this.label3);
+      this.Controls.Add(this.camelLinkLabel);
       this.Controls.Add(this.dateLabel);
       this.Controls.Add(this.label4);
       this.Controls.Add(this.savingsLabel);
@@ -127,7 +149,7 @@
       this.Controls.Add(this.titleLabel);
       this.Controls.Add(this.pictureBox);
       this.Name = "DealControl";
-      this.Size = new System.Drawing.Size(400, 64);
+      this.Size = new System.Drawing.Size(513, 64);
       ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
       this.ResumeLayout(false);
       this.PerformLayout();
@@ -144,5 +166,7 @@
     private System.Windows.Forms.Label priceLabel;
     private System.Windows.Forms.Label dateLabel;
     private System.Windows.Forms.Label label4;
+    private System.Windows.Forms.Label label3;
+    private System.Windows.Forms.Label camelLinkLabel;
   }
 }

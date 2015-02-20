@@ -48,5 +48,13 @@ namespace NewEggDeals.Controls
     {
       System.Diagnostics.Process.Start(_row.Link);
     }
+
+    private void camelLinkLabel_Click(object sender, EventArgs e)
+    {
+      var description = _row.Title.Replace(" ", "+");
+      description = description.Substring(description.IndexOf('-') + 1).Trim();
+      var url = string.Format("http://camelcamelcamel.com/search?sq={0}", description);
+      System.Diagnostics.Process.Start(url);
+    }
   }
 }

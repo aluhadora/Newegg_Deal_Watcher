@@ -12,10 +12,10 @@ namespace NewEggDeals
     [STAThread]
     static void Main()
     {
-      ImageCache.CreateDatabase();
       Application.EnableVisualStyles();
       Application.SetCompatibleTextRenderingDefault(false);
 
+      ImageCache.CreateDatabase();
       LastRan.UpdateOptions();
 
       Application.Run(new DealForm());
